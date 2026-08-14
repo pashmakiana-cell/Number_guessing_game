@@ -1,86 +1,109 @@
-# Number Guesser Game
+🎯 Number Guessing Game
 
-## Description
+A simple Number Guessing Game built with Python. The project includes both a command-line version and an interactive Streamlit web version.
 
-Number Guesser is a simple command-line game written in Python.
+🚀 Live Demo
 
-The computer randomly selects a number between 1 and 100, and the player tries to guess it. After each guess, the game provides a hint to help the player find the correct number.
+Play the web version online:
 
-The player starts with a score of 100. Each guess decreases the score by 1 point. The game ends when the player guesses the correct number or chooses to quit.
+👉 Number Guessing Game
 
-## Features
+📖 Description
 
-* Random number generation
-* Score system
-* Input validation
-* High and low hints
-* Quit option
-* Play again option
+In this game, the computer randomly selects a number between 1 and 100, and the player tries to guess the secret number.
 
-## Game Rules
+After each guess, the game gives a hint:
 
-1. Enter a number between 1 and 100.
-2. If your guess is too high, the game asks for a lower number.
-3. If your guess is too low, the game asks for a bigger number.
-4. Each attempt reduces your score by 1.
-5. Enter `q` to quit the game.
-6. Guess the correct number to win.
+If the guess is too high, the player is asked to choose a lower number.
+If the guess is too low, the player is asked to choose a higher number.
+When the correct number is guessed, the player wins.
 
-## Requirements
+The player starts with a score of 100, and each incorrect attempt decreases the score by 1 point.
 
-* Python 3.x
+✨ Features
+🎲 Random number generation
+🔢 Number guessing between 1 and 100
+💯 Score system
+⬆️ High and low hints
+✅ Input validation
+🔄 Play again option
+❌ Quit option
+🌐 Interactive Streamlit web interface
+💻 Command-line version
+🎮 Game Rules
+The computer chooses a random number between 1 and 100.
+Enter your guess.
+If your guess is too high, try a lower number.
+If your guess is too low, try a higher number.
+Each incorrect guess reduces your score by 1 point.
+Guess the correct number to win.
+In the command-line version, enter q to quit.
+🛠️ Technologies
+Python 3
+Streamlit
+Random module
+📂 Project Structure
+Number_guessing_game/
+│
+├── main.py
+├── requirements.txt
+├── README.md
+│
+└── streamlit/
+    └── by_streamlit.py
+💻 Run the Command-Line Version
 
-## How to Run
+Clone the repository:
 
-1. Save the code in a file named `number_guesser.py`.
-2. Open a terminal in the project folder.
-3. Run the following command:
+git clone https://github.com/pashmakiana-cell/Number_guessing_game.git
 
-```bash
-python number_guesser.py
-```
+Go to the project directory:
 
-## Example
+cd Number_guessing_game
 
-```text
-enter number between 1 , 100 (for quit enter q )50
-enter biger number than 50 : 75
-enter a lower number than 75 : 62
-exactly you win your score is : 97 / 100
-```
+Run the game:
 
-## Future Improvements
+python main.py
+🌐 Run the Streamlit Version Locally
 
-* Multiple difficulty levels
-* High score system
-* Statistics tracking
-* Limited number of attempts
-* Graphical user interface (GUI)
+Install the required dependencies:
 
-## Licence
+pip install -r requirements.txt
+
+Run the Streamlit application:
+
+streamlit run streamlit/by_streamlit.py
+
+The application will open in your web browser.
+
+📸 Example
+
+The game gives hints after each guess and keeps track of the player's score.
+
+Example:
+
+Enter a number between 1 and 100: 50
+Enter a bigger number than 50: 75
+Enter a lower number than 75: 62
+
+Exactly! You win.
+Your score is: 97 / 100
+🔮 Future Improvements
+Multiple difficulty levels
+High score system
+Statistics tracking
+Limited number of attempts
+Improved user interface
+More game modes
+📄 License
 
 This project is licensed under the MIT License.
 
-## How to Contribute
 
-Contributions are welcome.
+👤 Author
 
-1. Fork the repository.
-2. Create a new branch.
-3. Make your changes.
-4. Commit your changes.
-5. Submit a pull request.
+Amir Hossein Pashmakian
 
-## Credits
-
-Created as a Python learning project using:
-
-* Functions
-* Loops
-* Conditions
-* User Input Validation
-* Random Module
-
-## Contact
-
-For suggestions or bug reports, please open an issue in the repository.
+Email : pashmakiana@gmail.com
+LinkedIn: https://www.linkedin.com/in/amirhossein-pashmakian-645909415/
+GitHub: https://github.com/pashmakiana-cell

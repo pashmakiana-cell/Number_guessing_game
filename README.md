@@ -59,7 +59,8 @@ Number_guessing_game/
 │
 └── streamlit/
     └── by_streamlit.py
-
+```
+‍‍‍‍‍
 ## 👤 Author **Amir Hossein Pashmakian**
 - Email : pashmakiana@gmail.com
 - LinkedIn: https://www.linkedin.com/in/amirhossein-pashmakian-645909415/
